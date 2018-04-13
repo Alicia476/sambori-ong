@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>004-social-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect x="1071" y="34" width="24" height="24" id="rect-1"></rect>
+        <filter x="-29.2%" y="-20.8%" width="158.3%" height="158.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Cabecera-Blanca" transform="translate(-1068.000000, -34.000000)">
+            <g id="004-social-1">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#rect-1"></use>
+                <image x="1071" y="34" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAA1teXP8meAAAAu9JREFUWAndlr9rFEEUx9/MnOKPJgiKFtHGGFFB1MLKQgz4B4gEBAMSSGWlgoX4AwWJnaQRu4CgImgnihERRCsDKWKMoIUih5gUIjbmx66f2csMs3e7udtNjgMHZt/szHvv+515b36oOI6lk0V3Etxi/18ElKoMGGUeamW+UGe10s+UMleUUl3hSvNvlFrTh9Ric6CWB2bQtYtKnHcrUWNKdJxTv4lUjqLXq0UPo1NFjiS4NXDZYQ3pvFECfD220znAIaEo0PkOmc0BATPoBiFxswgJ9G872xblBxFzkvS7ihxIlh8nd9LG6rld1mZE0FmL3VzaNjcMbjUSfTBHsVcu/kMZTn7DcMgq5RFh7GCGnQPKlYDfx1YHIZCdyziaQvc8BlvqiUDw9DJ2eQQm8FVxvpLZ0SFsm2lEr23nlHmR+Gks6i2L8lFkkWr2s4ZPcvRzuuMXURwd94OOCR27mc1swRktFNS3O+2ew7QyOQk5Fy4xcIpbYRgic55d84ZprtKg8SPsqSz9aMAvq3CkTe1IxJ4BvizdBfqd72l7I3oTQgRJqF+SXMfCwTa0f8YSbSX2/g3gb0NuhLMApuKz2gQI8VgInvi3ZFylg0tFjxfN7Fb18X/EYTnpwW0HZROVs0BfwOlMq45b0zOvHWgo3S6w4LYYnI0jNyZ/q/jhALue5c7ngB2E2QzrcCtLcSV9xP5RHM+/yvQRLodrcyjdbW1Zm9589j74CnCX810vUzngBjGAtOnH+PMKiSzgqyHxHI6VmQRSCiJcOHqiBJG/TOJE6CurnUsA5uvYDRcB/lUC/A83bl8WYH2fPwl5oW4AdA+s9/JU3cfi9PPfTS1aJjntzgD0vlXDQyTdKLNcLDHT8NHBC0qfA9Q/Nupnm/XvQ4DhAYg8gETRO34Ku2vYb8sCaNbnQ4CDpBCK7YThMOnZwyGxiwOkx7YZtCGqskGqvIKqXKufRKLHAEzWLMt9GwiUc1PeKnUSlndT3rLjBP4BReVoLUxEMSgAAAAASUVORK5CYII="></image>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,127 @@
+/* -------------- 1. LANDING -------------- */
+
+/* Comunes  */
+#cabecera, #equipo-landing, .grid-imagen-1, .grid-imagen-2 {
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+  }  
+
+#resumen, .grid-container, #equipo-landing {
+    margin: 120px auto;
+ }
+ 
+.grid-container, #equipo-landing {
+     width: 90%; 
+ }
+
+#resumen, #equipo-landing div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+#cabecera, #contacto, footer {
+  width: 100%;   
+ }
+
+/* Individuales */
+#cabecera {
+    background-image: url(/assets/img/Backgrounds-e-imagenes/landing-background.png);
+    height: 1024px;  
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+#info-entrada {
+    border: 2px solid red; 
+    text-align: center; 
+   
+}
+
+#resumen {
+    height: 330px;
+    width: 80%;
+}
+
+#equipo-landing {
+    height: 724px;
+    background-image: url(/assets/img/Backgrounds-e-imagenes/landing-fundadoras.png);
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+#equipo-landing div {
+    width: 50%;
+    height: 234px; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contacto {
+    border: 2px solid black;
+    height: 535px;
+    display: flex; 
+}
+
+#mapa {
+    width: 55%;
+    background-color: white;
+}
+
+footer {
+    display: flex; 
+    background-color: #A0A0A0;
+}
+
+footer div {
+    width: 50%;
+}
+
+/* --- GRID --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px; 
+  }
+
+  .grid-item {
+    background-color: white;
+    padding: 30px;
+    height: 396px;
+  }
+
+  .grid-texto {
+      display: flex; 
+      flex-wrap: wrap;
+      align-items: center; 
+  }
+
+  .grid-imagen-1 {
+      background-image: url(/assets/img/Backgrounds-e-imagenes/landing-actividades.png); 
+  }
+
+  .grid-imagen-2 {
+      background-image: url(/assets/img/Backgrounds-e-imagenes/landing-voluntariado.png);
+  }
+
+
+/* -------------- 2. HISTORIA -------------- */
+
+/* -------------- 3. SOBRE NOSOTROS -------------- */
+
+/* -------------- 4. ACTIVIDADES -------------- */
+
+/* -------------- 5. VALORES -------------- */
+
+/* -------------- 6. VOLUNTARIADO -------------- */
+
+/* -------------- 7. COLABORAR -------------- */
+
+/* -------------- 8. CONTACTO -------------- */

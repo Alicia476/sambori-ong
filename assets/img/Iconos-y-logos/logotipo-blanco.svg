@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="418px" height="135px" viewBox="0 0 418 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Sambori ONG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Refuge" font-size="120" font-weight="400" line-spacing="43" letter-spacing="3" fill="#FFFFFF">
+            <tspan x="778.58" y="408.92">Sambori</tspan>
+            <tspan x="1190.42" y="422.1" font-size="100"> </tspan>
+            <tspan x="944.468" y="488" font-size="48">ON</tspan>
+            <tspan x="999.332" y="488" font-size="48">G</tspan>
+        </text>
+        <filter x="-2.7%" y="-50.6%" width="105.5%" height="173.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-HD-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="Desktop-HD---Landing" transform="translate(-774.000000, -327.000000)" fill="#FFFFFF">
+            <g id="Sambori-ONG">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

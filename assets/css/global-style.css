@@ -1,0 +1,189 @@
+/* -------------- 0. GLOBAL STYLES -------------- */
+html * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", "Gill Sans", sans-serif;
+  color: black;
+  background-color: #EEECEC;
+  line-height: 30px;
+}
+
+#logo-negro {
+    width: 80px;
+    height: 80px;
+}
+
+.seccion-120 {
+    margin-bottom: 120px; 
+}
+
+/* --- TEXTOS --- */
+/* Comunes */
+.p-blanco,
+figcaption,
+#menu-navegacion {
+  font-size: 16px;
+}
+
+.p-blanco, p {
+    letter-spacing: 1px;
+}
+
+.p-blanco {
+  font-family: Montserrat-Bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.p-blanco,
+h2 {
+   text-transform: uppercase;  
+}
+
+figcaption,
+h2 {
+  letter-spacing: 3px;
+}
+
+figcaption,
+h2,
+#menu-navegacion {
+   font-family: Montserrat-SemiBold; 
+}
+
+figcaption {
+    text-align: center; 
+}
+
+/* Individuales */
+#menu-navegacion a{
+color: #000000;
+text-decoration: none;
+letter-spacing: 2px;
+}
+
+
+
+header {
+  position: fixed;
+  
+  width: 100%;  
+}
+
+nav {
+  border: 2px solid red; 
+  width: 100%;
+  display: flex;
+
+}
+
+#menu-navegacion, #menu-redes {
+  border: 2px solid yellow; 
+  display: inline-block; 
+}
+
+#menu-navegacion li, #menu-redes li {
+  display: inline-block; 
+}
+
+figcaption {
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+}
+
+
+
+
+/* --- BOTONES --- */
+.importante, .verde-completo, .verde-simple{
+border-radius: 100px;
+font-family: Montserrat-Bold;
+font-size: 16px;    
+letter-spacing: 1px;
+min-width: 220px;
+min-height: 50px;
+padding: 10px;
+}
+
+.importante, .verde-completo {
+ color: #ffffff;   
+ border: 0; 
+}
+
+.importante {
+background: #e69ed4;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+text-transform: uppercase; 
+}
+
+.verde-completo {
+background: #619874;
+}
+
+.verde-simple {
+border: 2px solid #619874;
+}
+
+/* ------------ FORMULARIO ------------ */
+.formulario {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea,
+  .formulario select {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .formulario input[type="text"]:focus,
+  .formulario input[type="email"]:focus,
+  .formulario textarea:focus,
+  .formulario select:focus {
+    box-shadow: 0 0 5px #c8d5da;
+    padding: 3%;
+    border: 1px solid #c8d5da;
+  }
+  
+  .formulario input[type="submit"],
+  .formulario input[type="button"] {
+    border-radius: 100px;
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: white; 
+    background-color: #619874; 
+    letter-spacing: 1px;
+    min-width: 220px;
+    min-height: 50px;
+    padding: 10px;
+  }
+  .formulario input[type="submit"]:hover,
+  .formulario input[type="button"]:hover {
+    background: #999;
+    color: white;
+  }
