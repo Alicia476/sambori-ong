@@ -1,17 +1,17 @@
 /* -------------- 1. LANDING -------------- */
 
 /* Comunes  */
-#cabecera, #equipo-landing, .grid-imagen-1, .grid-imagen-2 {
+#cabecera, #equipo-landing, .grid-imagen-1, .grid-imagen-2, #imagen,  .grid-imagen__valores {
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover; 
   }  
 
 #resumen, .grid-container, #equipo-landing {
-    margin: 120px auto;
+    margin: 190px auto;
  }
  
-.grid-container, #equipo-landing {
+.grid-container, #equipo-landing, #nuestros-valores, #colabora {
      width: 90%; 
  }
 
@@ -34,7 +34,7 @@
     justify-content: center; 
 }
 
-#info-entrada {
+#cabecera__info {
     border: 2px solid red; 
     text-align: center; 
    
@@ -86,15 +86,18 @@ footer div {
 /* --- GRID --- */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto; 
+    grid-template-columns: 50% 50%; 
     grid-column-gap: 10px;
     grid-row-gap: 10px; 
   }
 
-  .grid-item {
+  .grid-item, .grid-item__valores {
     background-color: white;
     padding: 30px;
-    height: 396px;
+    }
+
+  .grid-item {
+    height: 396px;  
   }
 
   .grid-texto {
@@ -111,6 +114,20 @@ footer div {
       background-image: url(/assets/img/Backgrounds-e-imagenes/landing-voluntariado.png);
   }
 
+  .grid-container__valores {
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-row-gap: 10px; 
+  }
+
+  .grid-item__valores {
+    height: 764px;
+  }
+
+  .grid-imagen__valores {
+    background-image: url(/assets/img/Backgrounds-e-imagenes/valores-superior.png);
+  }
+
 
 /* -------------- 2. HISTORIA -------------- */
 
@@ -119,6 +136,19 @@ footer div {
 /* -------------- 4. ACTIVIDADES -------------- */
 
 /* -------------- 5. VALORES -------------- */
+
+#nuestros-valores, #colabora  {
+    margin: 0 auto; 
+}
+
+#colabora {
+    background-image: url(/assets/img/Backgrounds-e-imagenes/valores-inferior.png);
+    height: 450px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
 
 /* -------------- 6. VOLUNTARIADO -------------- */
 
