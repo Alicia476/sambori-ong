@@ -1,268 +1,238 @@
 /* -------------- 1. LANDING -------------- */
-
-/* Comunes  */
-#cabecera,
-#equipo-landing,
-.landing__grid-imagen-1,
-.landing__grid-imagen-2,
-#imagen,
-.valores__grid-imagen,
-.voluntariado__grid-imagen,
-.ver-actividades__grid-imagen,
-.sobre-nosotros__grid-imagen {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-#resumen,
-.landing__grid-container,
-#equipo-landing, 
-#voluntariado,
-#ver-actividades,
-#nuestros-valores,
-#sobre-nosotros, 
-.el-voluntariado__grid-container, 
-.grid-voluntariado__grid-container {
-  margin: 190px auto;
-}
-
-#equipo-landing,
-#nuestros-valores,
-#colabora,
-.landing__grid-container, 
-#voluntariado, 
-#ver-actividades,
-#sobre-nosotros,
-.el-voluntariado__grid-container, 
-.grid-voluntariado__grid-container {
-  width: 90%;
-}
-
-#resumen,
-#equipo-landing div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-#cabecera,
-#contacto,
-footer {
-  width: 100%;
-}
-
-/* Individuales */
-#cabecera {
+/* Cabecera */
+#landing-cabecera {
   background-image: url(/assets/img/Backgrounds-e-imagenes/landing-background.png);
   height: 1024px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
-
-#cabecera__info {
-  border: 2px solid red;
+#landing-cabecera__info {
   text-align: center;
+  margin-right: 200px;
 }
-
-#resumen {
-  height: 330px;
-  width: 80%;
+/* Resumen */
+#landing-resumen {
+  grid-template-columns: repeat(3, 270px);
+  grid-column-gap: 60px; 
+  text-align: center; 
 }
-
-#equipo-landing {
+.landing-resumen__icono {
+  width: 80%; 
+}
+/* Informacion */
+#landing-info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.landing-info__texto {
+  height: 400px; 
+}
+.landing-info__item__imagen1 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-actividades.png);
+}
+.landing-info__item__imagen2 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-voluntariado.png);
+}
+/* Equipo */
+#landing-equipo {
+  grid-template-columns: minmax(552px, 705px);
   height: 724px;
   background-image: url(/assets/img/Backgrounds-e-imagenes/landing-fundadoras.png);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#equipo-landing div {
-  width: 50%;
-  height: 234px;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
 }
-
-#contacto {
-  border: 2px solid black;
-  height: 535px;
-  display: flex;
+.landing-equipo__info {
+max-width: 700px; 
+margin: 0 auto; 
 }
-
-#mapa {
-  width: 55%;
-  background-color: white;
+/* Contacto */
+#landing-contacto {
+  grid-template-columns: 1.2fr 1fr; 
 }
-
+.landing-contacto__mapa {
+  border: 1px solid gray;
+}
+/* Footer */
 footer {
   display: flex;
   background-color: #a0a0a0;
 }
-
 footer div {
   width: 50%;
 }
 
-/* --- GRID --- */
-/* Comunes */
-.grid-texto {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
 
-.landing__grid-item,
-.valores__grid-item, 
-.voluntariado__grid-item,
-.ver-actividades__grid-item,
-.el-voluntariado__grid-item {
-  background-color: white;
-  padding: 30px;
-}
-
-.landing__grid-container,
-.valores__grid-container,
-.voluntariado__grid-container, 
-.ver-actividades__grid-container, 
-.el-voluntariado__grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%; 
-}
-
-/* Grid Landing page */
-.landing__grid-container {
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-}
-
-.landing__grid-item {
-  height: 396px;
-}
-
-.landing__grid-imagen-1 {
-  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-actividades.png);
-}
-
-.landing__grid-imagen-2 {
-  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-voluntariado.png);
-}
-
-/* Grid VALORES page */
-.valores__grid-container {
-  height: 874px;
-  background-color: white;
-}
-
-.valores__grid-imagen {
-  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-superior.png);
-  padding: 0;
-}
-
-/* Grid VOLUNTARIADO page */
-.voluntariado__grid-imagen {
-    background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-superior.png);
-}
-
-.voluntariado__grid-container {
-    height: 874px;
-    background-color: white;
-}
-
-/* Grid ORGANIZA-TALLER section  */
-.ver-actividades__grid-container {
-    height: 450px;
-    background-color: white;
-}
-
-.ver-actividades__grid-item  {
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-}
-
-.ver-actividades__grid-imagen {
-    background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-inferior.png);
-}
-
-/* Grid EL VOLUNTARIADO section */
-.el-voluntariado__grid-item {
-  background-color: #D7DDD9; 
-}
-
-.el-voluntariado__grid-imagen {
-  background-color: grey;
-}
-
-.grid-voluntariado__grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto; 
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-}
-
-.grid-voluntariado__grid-container p {
-  text-align: center; 
-}
 
 
 
 /* -------------- 2. HISTORIA -------------- */
-
-/* -------------- 3. SOBRE NOSOTROS -------------- */
-.sobre-nosotros__info {
+#historia__info {
   background-color: white; 
-  display: flex; 
-  flex-wrap: wrap; 
-  align-items: center; 
-  justify-content: center;
-}
-
-.sobre-nosotros__info div {
-  width: 100%; 
-}
-
-.sobre-nosotros__info div img{
-  width: 100%; 
-}
-
-.sobre-nosotros__info article {
   padding: 30px; 
 }
-
-div .aqui-imagen {
-  border: 1px solid gray;
-  height: 468px; 
-  margin-bottom: 15px;
-}
-
-
-
-/* -------------- 4. ACTIVIDADES -------------- */
-
-/* -------------- 5. VALORES -------------- */
-
-#nuestros-valores,
-#colabora {
-  margin: 0 auto;
-}
-
-#colabora {
-  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-inferior.png);
+#historia__conocer-equipo {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/historia-inferior.png);
   height: 450px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+.historia__imagen {
+  width: 100%; 
+  z-index: -1;
+  position: absolute;
+  top: 60px; 
+}
+
+
+
+
+
+/* -------------- 3. SOBRE NOSOTROS -------------- */
+.sobre-nosotros__info {
+  grid-template-rows: 400px 400px; 
+}
+.sobre-nosotros__info__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/equipo-fundadoras.png);
+}
+#sobre-nosotros__el-voluntariado{
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.sobre-nosotros__el-voluntariado__grid-imagen{
+  background-color: gray; 
+}
+#sobre-nosotros__el-voluntariado__galeria {
+  grid-template-columns: 32% 32% 32%; 
+  grid-template-rows: 545px 545px; 
+  grid-gap: 15px; 
+  text-align: center;
+}
+.imagen-prueba {
+  border: 1px solid gray;
+  height: 468px; 
+  margin-bottom: 15px;
+} 
+
+
+
+/* -------------- 4. ACTIVIDADES -------------- */
+.actividades__info {
+ grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+ grid-column-gap: 10px; 
+}
+.actividades__info__iconos {
+  grid-template-rows: 300px 300px; 
+  grid-template-columns: 50% 50%;
+  text-align: center; 
+}
+.actividades__info__iconos figure {
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center; 
+}
+.actividades__info__iconos figcaption {
+  padding: 15px; 
+}
+.actividades__info__iconos__img {
+  width: 60%; 
+}
+#actividades__galeria {
+  display: grid; 
+  grid-template-rows: repeat(2, 280px); 
+  grid-template-columns: repeat(3, 32%); 
+  grid-gap: 20px; 
+  justify-content: center; 
+  align-content: center; 
+}
+#actividades__galeria div {
+  background-color: white;
+  border: 2px solid black; 
+}
+#actividades__organizar-taller{
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.actividades__organiza-taller__imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/actividades-talleres.png);
+}
+
+
+
+
+
+/* -------------- 5. VALORES -------------- */
+.nuestros-valores__info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.nuestros-valores__grid-imagen{
+  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-superior.png);
+  height: 750px;
+}
+#nuestros-valores__colabora {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-inferior.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
 
 /* -------------- 6. VOLUNTARIADO -------------- */
+.voluntariado__info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.voluntariado__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-superior.png);
+}
+#voluntariado__actividades {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.voluntariado__actividades__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-inferior.png);
+}
+
+
+
 
 
 /* -------------- 7. COLABORAR -------------- */
+#colaborar-cabecera {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/colabora-background.png);
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colaborar-cabecera__info {
+  text-align: center;
+}
+.colaborar-cabecera__info p{
+  padding: 20px; 
+  background-color: #619874; 
+}
+#colaborar {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.colaborar__accion {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+}
+.productos-solidarios__productos {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+  text-align: center; 
+}
+
+
 
 /* -------------- 8. CONTACTO -------------- */
+#contacto {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+#contacto__mapa {
+  width: 100%; 
+  background-color: gray; 
+  height: 400px; 
+}
