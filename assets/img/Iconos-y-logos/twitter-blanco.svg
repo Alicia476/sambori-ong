@@ -1,23 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="28px" viewBox="0 0 30 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>004-social-1</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect x="1071" y="34" width="24" height="24" id="rect-1"></rect>
-        <filter x="-29.2%" y="-20.8%" width="158.3%" height="158.3%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Cabecera-Blanca" transform="translate(-1068.000000, -34.000000)">
-            <g id="004-social-1">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#rect-1"></use>
-                <image x="1071" y="34" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAA1teXP8meAAAAu9JREFUWAndlr9rFEEUx9/MnOKPJgiKFtHGGFFB1MLKQgz4B4gEBAMSSGWlgoX4AwWJnaQRu4CgImgnihERRCsDKWKMoIUih5gUIjbmx66f2csMs3e7udtNjgMHZt/szHvv+515b36oOI6lk0V3Etxi/18ElKoMGGUeamW+UGe10s+UMleUUl3hSvNvlFrTh9Ric6CWB2bQtYtKnHcrUWNKdJxTv4lUjqLXq0UPo1NFjiS4NXDZYQ3pvFECfD220znAIaEo0PkOmc0BATPoBiFxswgJ9G872xblBxFzkvS7ihxIlh8nd9LG6rld1mZE0FmL3VzaNjcMbjUSfTBHsVcu/kMZTn7DcMgq5RFh7GCGnQPKlYDfx1YHIZCdyziaQvc8BlvqiUDw9DJ2eQQm8FVxvpLZ0SFsm2lEr23nlHmR+Gks6i2L8lFkkWr2s4ZPcvRzuuMXURwd94OOCR27mc1swRktFNS3O+2ew7QyOQk5Fy4xcIpbYRgic55d84ZprtKg8SPsqSz9aMAvq3CkTe1IxJ4BvizdBfqd72l7I3oTQgRJqF+SXMfCwTa0f8YSbSX2/g3gb0NuhLMApuKz2gQI8VgInvi3ZFylg0tFjxfN7Fb18X/EYTnpwW0HZROVs0BfwOlMq45b0zOvHWgo3S6w4LYYnI0jNyZ/q/jhALue5c7ngB2E2QzrcCtLcSV9xP5RHM+/yvQRLodrcyjdbW1Zm9589j74CnCX810vUzngBjGAtOnH+PMKiSzgqyHxHI6VmQRSCiJcOHqiBJG/TOJE6CurnUsA5uvYDRcB/lUC/A83bl8WYH2fPwl5oW4AdA+s9/JU3cfi9PPfTS1aJjntzgD0vlXDQyTdKLNcLDHT8NHBC0qfA9Q/Nupnm/XvQ4DhAYg8gETRO34Ku2vYb8sCaNbnQ4CDpBCK7YThMOnZwyGxiwOkx7YZtCGqskGqvIKqXKufRKLHAEzWLMt9GwiUc1PeKnUSlndT3rLjBP4BReVoLUxEMSgAAAAASUVORK5CYII="></image>
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve" width="512px" height="512px">
+<g>
+	<g>
+		<path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411    c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513    c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101    c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104    c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194    c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485    c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z" fill="#FFFFFF"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>

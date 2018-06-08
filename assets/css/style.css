@@ -1,0 +1,801 @@
+/*
+Theme Name: Sambori ONG
+Theme URI: http://thecoolest.theme
+Description: Tema para Sambori ONG.
+Author: Alicia Cardete
+Author URI: http://freetanga.es
+Version: 1.0
+*/
+
+/* -------------- 0. GLOBAL STYLES -------------- */
+html * {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", "Gill Sans", sans-serif;
+  color: black;
+  background-color: #EEECEC;
+  line-height: 30px;
+}
+
+#logo-negro {
+    width: 80px;
+    height: 80px;
+}
+
+.grid {
+  display: grid; 
+  justify-content: center; 
+  align-content: center; 
+}
+
+.item {
+  background-color: white; 
+  padding: 30px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.seccion-centrada {
+  margin: 120px auto 120px auto;
+  width: 85%;
+}
+
+.background-imagen {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.seccion-inferior {
+  min-height: 450px; 
+}
+
+.hidden {
+  display: none; 
+}
+
+#landing-cabecera,
+#colaborar-cabecera,
+footer {
+  width: 100%;
+}
+
+.columna {
+  column-count: 2;
+}
+
+/* --- TEXTOS --- */
+@font-face {
+  font-family: "Refuge";
+  src: url(/assets/fonts/Refuge.ttf);
+}
+
+h1.deco { 
+font-family: Refuge;
+font-size: 36px;
+color: #000000;
+letter-spacing: 6px;
+line-height: 30px;
+margin-bottom: 60px;
+}
+
+/* Comunes */
+.p-blanco, p {
+    letter-spacing: 1px;
+}
+.p-blanco {
+  font-family: Montserrat-Bold;
+  color: #ffffff;
+  text-align: center;
+}
+.p-blanco,
+h2 {
+   text-transform: uppercase;  
+}
+figcaption,
+h2 {
+  letter-spacing: 3px;
+}
+figcaption {
+    text-align: center; 
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/* Individuales */
+h2 {
+  font-size: 20px;
+}
+p {
+  font-family: Montserrat-Regular;
+  font-size: 15px;
+}
+
+
+
+
+/* --- BOTONES --- */
+.importante, .verde-completo, .verde-simple{
+border-radius: 100px;
+font-family: Montserrat-Bold;
+font-size: 16px;    
+letter-spacing: 1px;
+min-width: 220px;
+min-height: 50px;
+padding: 10px;
+}
+.importante, .verde-completo {
+ color: #ffffff;   
+ border: 0; 
+}
+.importante {
+background: #e69ed4;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+text-transform: uppercase; 
+}
+.verde-completo {
+background: #619874;
+}
+.verde-simple {
+border: 2px solid #619874;
+background: none; 
+position: relative;
+right: 1;
+
+}
+
+/* ------------ FORMULARIO ------------ */
+.formulario {
+    width: 90%;
+    margin: 10px auto;
+    padding: 16px;
+  }
+  
+  .formulario input[type="text"],
+  .formulario input[type="email"],
+  .formulario textarea,
+  .formulario select {
+    outline: none;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font-family: "Montserrat";
+    font-size: 14px;
+  }
+  .formulario input[type="text"]:focus,
+  .formulario input[type="email"]:focus,
+  .formulario textarea:focus,
+  .formulario select:focus {
+    box-shadow: 0 0 5px #c8d5da;
+    padding: 3%;
+    border: 1px solid #c8d5da;
+  }
+  
+  .formulario input[type="submit"],
+  .formulario input[type="button"] {
+    border-radius: 100px;
+    font-family: Montserrat-Bold;
+    font-size: 16px;
+    color: white; 
+    background-color: #619874; 
+    letter-spacing: 1px;
+    min-width: 220px;
+    min-height: 50px;
+    padding: 10px;
+  }
+  .formulario input[type="submit"]:hover,
+  .formulario input[type="button"]:hover {
+    background: #999;
+    color: white;
+  }
+
+
+/* NAV / MENU */
+li.menu__logo {
+  width: 90px; 
+  margin-left: 15px; 
+  margin-right: 15px; 
+  height: 90px;
+  background-image: url(/assets/img/Iconos-y-logos/logo-sambori.svg);
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+li.a-rrss-1 {
+  width: 25px; 
+  height: 25px; 
+  background-image: url(/assets/img/Iconos-y-logos/instagram.svg); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin-right: 15px;
+}
+
+li.a-rrss-2 {
+  width: 25px; 
+  height: 25px; 
+  background-image: url(/assets/img/Iconos-y-logos/facebook.svg); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center;
+  margin-right: 15px; 
+}
+
+li.a-rrss-3 {
+  width: 25px; 
+  height: 25px; 
+  background-image: url(/assets/img/Iconos-y-logos/twitter.svg); 
+  background-size: cover;  
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+
+.menu-ultimo {
+  margin-right: 30px; 
+}
+
+
+
+.menu {
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  position: absolute;
+  top: 10px; 
+  width: 100%; 
+  padding: 0;  
+}
+ 
+.menu li{
+  display: inline-block;
+  position: relative;
+}
+ 
+.menu li a {
+  font-family: Montserrat-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding:11px;
+  display:block;
+
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+ 
+.menu li a:hover, .menu li:hover > a{
+  color:#555;
+}
+
+/* hide the second level menu */
+.menu ul {
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  top: 52px;
+  left: 0px;
+  }
+   
+  /* display second level menu on hover */
+  .menu li:hover > ul{ display: block;}
+   
+  .menu ul li {
+  display:block;
+  float: none;
+  background:none;
+  margin:0;
+  padding:0;
+  }
+   
+  .menu ul li a {
+  font-size:12px;
+  font-weight:normal;
+  display:block;
+  color:#797979;
+  border-left:3px solid #ffffff;
+  background:#ffffff;}
+   
+  .menu ul li a:hover, .menu ul li:hover > a{
+  /* background:#f0f0f0; */
+  border-left:3px solid #619874;
+  color:#797979;
+  font-style: italic;
+  }
+
+
+
+
+
+/* -------------- 1. LANDING -------------- */
+/* Cabecera */
+#landing-cabecera {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-background.png);
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#landing-cabecera__info {
+  text-align: center;
+  margin-right: 100px;
+  width: 45%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#landing-cabecera__info p{
+  width: 60%; 
+  margin-top: -100px; 
+}
+
+img.landing__logo {
+ min-width: 400px; 
+}
+
+/* Resumen */
+#landing-resumen {
+  grid-template-columns: repeat(3, 270px);
+  grid-column-gap: 60px; 
+  text-align: center; 
+}
+.landing-resumen__icono {
+  width: 80%; 
+}
+/* Informacion */
+#landing-info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.landing-info__texto {
+  height: 400px; 
+}
+.landing-info__item__imagen1 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-actividades.png);
+}
+.landing-info__item__imagen2 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-voluntariado.png);
+}
+/* Equipo */
+#landing-equipo {
+  grid-template-columns: minmax(552px, 705px);
+  height: 724px;
+  background-image: url(/assets/img/Backgrounds-e-imagenes/landing-fundadoras.png);
+  text-align: center;
+}
+.landing-equipo__info {
+max-width: 700px; 
+margin: 0 auto; 
+}
+/* Contacto */
+#landing-contacto {
+  grid-template-columns: 1.2fr 1fr; 
+}
+.landing-contacto__mapa {
+  border: 1px solid gray;
+}
+/* Footer */
+footer {
+  height: auto;
+  background-color: #888;
+}
+.footer__izquierda {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+
+.footer__derecha {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: left;
+  font-size: 12px;
+  font-family: Montserrat-Regular; 
+}
+
+.footer__derecha li {
+  text-align: left;
+}
+
+.footer__derecha a{
+  color: white; 
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.logo-inferior {
+  height: 150px; 
+  margin-top: -20px; 
+}
+.menu-inferior {
+  margin-top: -35px;
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  padding: 0;  
+}
+.menu-inferior li{
+  display: inline-block;
+  position: relative;
+}
+.menu-inferior li a {
+  font-family: Montserrat-SemiBold;
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding:11px;
+  display:block;
+
+-webkit-transition: all 0.2s ease-in-out 0s;
+   -moz-transition: all 0.2s ease-in-out 0s;
+   -o-transition: all 0.2s ease-in-out 0s;
+   -ms-transition: all 0.2s ease-in-out 0s;
+   transition: all 0.2s ease-in-out 0s;
+}
+
+@media screen and (max-width:414px) {
+  #landing-cabecera {
+    height: 700px; 
+    justify-content: center; 
+  }
+  #landing-cabecera__info {
+    width: 80%; 
+    margin-right: 0; 
+  }
+  #landing-cabecera__info p{
+    width: 100%; 
+  }
+  #landing-info {
+    display: flex; 
+    flex-direction: column; 
+  }
+  .landing-info__texto button {
+    margin-top: 50px; 
+  }
+  .landing-info__item__imagen1.visible,   .landing-info__item__imagen2.visible {
+    display: none; 
+  }
+  #landing-equipo {
+    height: 500px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;  
+  }
+
+
+
+  .landing-equipo__info p{
+    display: none;
+  }
+}
+
+
+
+
+
+/* -------------- 2. HISTORIA -------------- */
+#historia__info {
+  background-color: white; 
+  padding: 30px; 
+}
+#historia__conocer-equipo {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/historia-inferior.png);
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.historia__imagen {
+  width: 100%; 
+  z-index: -1;
+  position: absolute;
+  top: 60px; 
+}
+
+@media screen and (max-width: 414px) {
+  #historia__info .columna {
+    column-count: 1; 
+  }
+
+  .historia__imagen {
+    display: none; 
+  }
+}
+
+
+
+
+
+/* -------------- 3. SOBRE NOSOTROS -------------- */
+.sobre-nosotros__info {
+  grid-template-rows: 400px 400px; 
+}
+
+
+.sobre-nosotros__info__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/equipo-fundadoras.png);
+}
+#sobre-nosotros__el-voluntariado{
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.sobre-nosotros__el-voluntariado__grid-imagen{
+  background-color: gray; 
+}
+#sobre-nosotros__el-voluntariado__galeria {
+  grid-template-columns: 32% 32% 32%; 
+  grid-template-rows: 545px 545px; 
+  grid-gap: 15px; 
+  text-align: center;
+}
+.imagen-prueba {
+  border: 1px solid gray;
+  height: 468px; 
+  margin-bottom: 15px;
+} 
+
+
+.sobre-nosotros__info__hidden__background1 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/equipo-marta-y-sandra.png);
+  height: 500px; 
+}
+
+.sobre-nosotros__info__hidden__background2 {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/equipo-silvia-y-an.png); 
+  height: 500px; 
+}
+
+@media screen and (max-width: 414px) {
+.sobre-nosotros__info.visible {
+  display: none; 
+}
+.sobre-nosotros__info__hidden {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.sobre-nosotros__el-voluntariado__grid-imagen {
+  display: none; 
+}
+#sobre-nosotros__el-voluntariado{
+  display: flex;
+  flex-direction: column; 
+}
+#sobre-nosotros__el-voluntariado button {
+  margin-top: 50px; 
+}
+}
+
+
+/* -------------- 4. ACTIVIDADES -------------- */
+.actividades__info {
+ grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+ grid-column-gap: 10px; 
+}
+.actividades__info__iconos {
+  grid-template-rows: 300px 300px; 
+  grid-template-columns: 50% 50%;
+  text-align: center; 
+}
+.actividades__info__iconos figure {
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center; 
+}
+.actividades__info__iconos figcaption {
+  padding: 15px; 
+}
+.actividades__info__iconos__img {
+  width: 60%; 
+}
+#actividades__galeria {
+  display: grid; 
+  grid-template-rows: repeat(2, 280px); 
+  grid-template-columns: repeat(3, 32%); 
+  grid-gap: 20px; 
+  justify-content: center; 
+  align-content: center; 
+}
+#actividades__galeria div {
+  background-color: white;
+  border: 2px solid black; 
+}
+#actividades__organizar-taller{
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.actividades__organiza-taller__imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/actividades-talleres.png);
+}
+
+
+@media screen and (max-width: 414px) {
+  .actividades__info, #actividades__organizar-taller {
+    display: flex; 
+    flex-direction: column; 
+  } 
+  .actividades__info__iconos__img {
+    width: 80%; 
+  }
+  .actividades__info__iconos figcaption {
+    font-size: 10px; 
+  }
+  #actividades__organizar-taller button{
+    margin-top: 50px; 
+  }
+  .actividades__organiza-taller__imagen{
+    display: none; 
+  }
+}
+
+
+/* -------------- 5. VALORES -------------- */
+.nuestros-valores__info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.nuestros-valores__grid-imagen{
+  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-superior.png);
+  height: 750px;
+}
+#nuestros-valores__colabora {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/valores-inferior.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 414px) {
+  .nuestros-valores__grid-imagen {
+    display: none; 
+  }
+
+  .nuestros-valores__info {
+    display: flex; 
+    flex-direction: column; 
+  }
+
+  h1.visible {
+    display: none; 
+  }
+
+  h1.hidden {
+    display: block; 
+  }
+}
+
+
+
+
+/* -------------- 6. VOLUNTARIADO -------------- */
+.voluntariado__info {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.voluntariado__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-superior.png);
+}
+#voluntariado__actividades {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.voluntariado__actividades__grid-imagen {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/voluntariado-inferior.png);
+}
+
+
+@media screen and (max-width: 414px) {
+  .voluntariado__info , #voluntariado__actividades{
+    display: flex; 
+    flex-direction: column;  
+  }
+  #voluntariado__actividades button {
+    margin-top: 50px; 
+  }
+  .voluntariado__grid-imagen {
+    height: 500px; 
+    background-size: cover; 
+  }
+  .voluntariado__info .formulario {
+    width: 100%; 
+  }
+  .voluntariado__actividades__grid-imagen {
+    display: none; 
+  }
+}
+
+
+
+
+
+/* -------------- 7. COLABORAR -------------- */
+#colaborar-cabecera {
+  background-image: url(/assets/img/Backgrounds-e-imagenes/colabora-background.png);
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.colaborar-cabecera__info {
+  text-align: center;
+}
+.colaborar-cabecera__info p{
+  padding: 20px; 
+  background-color: #619874; 
+}
+#colaborar {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+.colaborar__accion {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  flex-direction: column; 
+}
+.productos-solidarios__productos {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+  text-align: center; 
+}
+
+
+
+/* -------------- 8. CONTACTO -------------- */
+#contacto {
+  grid-template-columns: minmax(552px, 705px) minmax(552px, 705px);
+}
+#contacto__mapa {
+  width: 100%; 
+  background-color: gray; 
+  height: 400px; 
+}
+
+
+@media screen and (max-width: 414px) {
+  #contacto{
+    display: flex; 
+    flex-direction: column;  
+  }
+  #contacto .formulario {
+    width: 100%; 
+  }
+}
+
+/* SLIDER */
+.swiper-container {
+  width: 100%; 
+  height: 300px;
+  border: 7px solid black; 
+  display: flex; 
+  /* overflow: hidden; */
+  
+}
+.swiper-slide {
+ border: 1px solid red; 
+}
+/* #contenedorSlider {
+  width: 500px;
+  height: 300px;
+
+} */

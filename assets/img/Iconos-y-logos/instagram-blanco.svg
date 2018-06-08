@@ -1,23 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
-    <title>001-instagram-logotipo-de-la-red-social-de-la-camara-de-fotos</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <rect x="1032" y="34" width="24" height="24" id="rect-1"></rect>
-        <filter x="-29.2%" y="-20.8%" width="158.3%" height="158.3%" filterUnits="objectBoundingBox" id="filter-2">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Cabecera-Blanca" transform="translate(-1028.000000, -32.000000)">
-            <g id="001-instagram-logotipo-de-la-red-social-de-la-camara-de-fotos">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#rect-1"></use>
-                <image x="1032" y="34" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAA1teXP8meAAAAqNJREFUWAndl92LTVEYxs8ezJQmkSbpKMp3lEEIN3Ij+S/cyb1y6daF3Ljg6owkf8DcEKWU73Djo5SaOROpKUlSxPF79qylZ+/OLHsf7VHz1rPXu97vvdZ690er1+u1oDaYANNAgiahHMrVDrnz5LMNJ+13Q8rZXsLlMtgPFpqWk3BtxqUL1jWQfYqYk+BHiK1ch8C+MNcwo0u/5flX2XfirtEel4H8peccYtIEvSfxx3kCP3F5UwV4jiS/aAsYzbJMHdaPVrlwqU9q8jrdr8FPsAMMg0irYc5RRIfRu+Aw8+OgQHVP/Cu8j4LheMLhlwEFfw7qxqvlcIUEIzFxeUSnFb1Qs4jKBTxSgnLS8hwbHey7oNJK6Okkw0hPYe6EyRHGA4HXsJ1kb2w+L8veb0D5Dii+6AW4mXOt1gnGnYHPB6/0YrwjNNdA1HWjvOqIr4qN/pPRD1nH5L3Uc2ALhpG0MnXpoTl4LBPP7VdBYJMVxnuLmTjJjpjWY5k4XcAzs/Q3mImT7EHTqj37UmoL/KUxxsFSn1cibPdguN6MHxtfYKsWIKcOgUcL3n0m2GjpJ0oqv5mCKlXAAyzV+5E2wdwgwVgUlEd0K5FdBd5mev/fLtv6PLaKxj9tqLaBNoOvwG1mmZ8COtlZsNsIfxJ8AG6rD5Px2ILBtlOyKTgUCggOSuZBnf+M7lNCf9aTD1RAcDpNki+JRF6U+G/gDBj6WwGpM4D/HBHkEpz29VYQpYZ7KHfhcx78ShlKp7dXJSLYFIbHOGh6P+wFarXdQB8e6nM9N4T72GoVKlHlAmI0YqszvDuiaqCxvAXjA0Wp6MTq6e1YyCFBF/iPib543oImaBtBt1rgGfHXQfkUL9Rcuf/vz2n+6xSK0PN7GjR998qhXPnv+W+F7koDYG2VZAAAAABJRU5ErkJggg=="></image>
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#rect-1"></use>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="512px" height="512px">
+<g>
+	<g>
+		<path d="M373.659,0H138.341C62.06,0,0,62.06,0,138.341v235.318C0,449.94,62.06,512,138.341,512h235.318    C449.94,512,512,449.94,512,373.659V138.341C512,62.06,449.94,0,373.659,0z M470.636,373.659    c0,53.473-43.503,96.977-96.977,96.977H138.341c-53.473,0-96.977-43.503-96.977-96.977V138.341    c0-53.473,43.503-96.977,96.977-96.977h235.318c53.473,0,96.977,43.503,96.977,96.977V373.659z" fill="#FFFFFF"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M370.586,238.141c-3.64-24.547-14.839-46.795-32.386-64.342c-17.547-17.546-39.795-28.746-64.341-32.385    c-11.176-1.657-22.507-1.657-33.682,0c-30.336,4.499-57.103,20.541-75.372,45.172c-18.269,24.631-25.854,54.903-21.355,85.237    c4.499,30.335,20.541,57.102,45.172,75.372c19.996,14.831,43.706,22.619,68.153,22.619c5.667,0,11.375-0.418,17.083-1.265    c30.336-4.499,57.103-20.541,75.372-45.172C367.5,298.747,375.085,268.476,370.586,238.141z M267.791,327.632    c-19.405,2.882-38.77-1.973-54.527-13.66c-15.757-11.687-26.019-28.811-28.896-48.216c-2.878-19.405,1.973-38.77,13.66-54.527    c11.688-15.757,28.811-26.019,48.217-28.897c3.574-0.53,7.173-0.795,10.772-0.795s7.199,0.265,10.773,0.796    c32.231,4.779,57.098,29.645,61.878,61.877C335.608,284.268,307.851,321.692,267.791,327.632z" fill="#FFFFFF"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M400.049,111.951c-3.852-3.851-9.183-6.058-14.625-6.058c-5.442,0-10.773,2.206-14.625,6.058    c-3.851,3.852-6.058,9.174-6.058,14.625c0,5.451,2.207,10.773,6.058,14.625c3.852,3.851,9.183,6.058,14.625,6.058    c5.442,0,10.773-2.206,14.625-6.058c3.851-3.852,6.058-9.183,6.058-14.625C406.107,121.133,403.9,115.802,400.049,111.951z" fill="#FFFFFF"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
 </svg>
